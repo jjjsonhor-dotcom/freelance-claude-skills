@@ -12,6 +12,10 @@ This repository is not affiliated with Anthropic.
 
 The source for the free skill also lives in this repo at [`skills/change-order-responder/SKILL.md`](skills/change-order-responder/SKILL.md).
 
+## Free Freelance Scope-Creep & Change-Order Email Scripts (12 ready-to-send templates)
+
+Start with the [Free Freelance Scope-Creep & Change-Order Email Scripts (12 ready-to-send templates)](guides/freelance-scope-creep-change-order-scripts.md). Copy a template, fill in the bracketed bits, and send. For a reply drafted from the client's actual message and your proposal, use the free skill below.
+
 ## Free skill: change-order-responder
 
 When a client says "can you also add this before launch, should be quick," this skill classifies the request against the agreed scope, estimates time and cost if the work is new, and drafts a calm reply with clear options: do it in scope, swap something out, approve a paid change, or park it.
