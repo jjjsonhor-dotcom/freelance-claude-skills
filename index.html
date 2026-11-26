@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Freelance Client-to-Cash Skills</title>
+  <meta name="description" content="Ten Claude skills for freelance discovery calls, proposals, change orders, weekly status, invoices, and offboarding. One-time purchase. A free change-order skill is included as a trial.">
+  <style>
+    :root {
+      --paper: #f4efe6;
+      --ink: #1c1915;
+      --muted: #5c564c;
+      --line: #d7cfc2;
+      --accent: #9a2e1c;
+      --accent-ink: #fffaf6;
+      --card: #fffaf3;
+      --ok: #1e4f3c;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Segoe UI", system-ui, -apple-system, Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      line-height: 1.55;
+    }
+    header, main, footer { max-width: 760px; margin: 0 auto; padding: 0 1.25rem; }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--line);
+    }
+    .brand { font-weight: 650; letter-spacing: -0.02em; }
+    nav { display: flex; gap: 1rem; font-size: 0.95rem; }
+    nav a { color: var(--ink); }
+    a { color: var(--accent); }
+    h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 600; line-height: 1.2; letter-spacing: -0.02em; }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 0.75rem; }
+    h2 { font-size: 1.7rem; margin: 2.75rem 0 0.8rem; padding-top: 0.25rem; }
+    h3 { font-size: 1.15rem; margin: 1.4rem 0 0.4rem; }
+    .hero { padding: 2.75rem 0 1rem; }
+    .lede { font-size: 1.15rem; max-width: 38rem; }
+    .muted { color: var(--muted); }
+    .ctas { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.5rem 0 0.75rem; }
+    .btn {
+      display: inline-block;
+      padding: 0.7rem 1.05rem;
+      border-radius: 2px;
+      text-decoration: none;
+      font-weight: 650;
+    }
+    .btn-primary { background: var(--accent); color: var(--accent-ink); }
+    .btn-primary:hover { filter: brightness(0.95); }
+    .btn-secondary { background: transparent; color: var(--ink); border: 1px solid var(--ink); }
+    .price-line { font-size: 0.95rem; color: var(--muted); }
+    .price-launch { font-weight: 700; color: var(--ink); }
+    .price-regular { text-decoration: line-through; }
+    table { width: 100%; border-collapse: collapse; font-size: 1rem; background: var(--card); }
+    th, td { text-align: left; vertical-align: top; padding: 0.7rem 0.8rem; border-bottom: 1px solid var(--line); }
+    th { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 650; }
+    .name { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.88rem; white-space: nowrap; }
+    .preview {
+      background: var(--ink);
+      color: #f3ecdf;
+      padding: 1.1rem 1.15rem;
+      overflow-x: auto;
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.78rem;
+      line-height: 1.5;
+      border-radius: 2px;
+      white-space: pre-wrap;
+    }
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      padding: 1rem 1.15rem;
+      margin: 1rem 0;
+    }
+    .faq details { border-top: 1px solid var(--line); padding: 0.85rem 0; }
+    .faq details:last-child { border-bottom: 1px solid var(--line); }
+    .faq summary { cursor: pointer; font-weight: 650; }
+    .faq details p { margin: 0.6rem 0 0.2rem; }
+    footer { border-top: 1px solid var(--line); margin-top: 3rem; padding: 1.5rem 1.25rem 2.5rem; font-size: 0.9rem; color: var(--muted); }
+    @media (max-width: 640px) {
+      body { font-size: 16.5px; }
+      header { flex-direction: column; align-items: flex-start; }
+      .name { white-space: normal; }
+      table, thead, tbody, th, td, tr { display: block; }
+      thead { position: absolute; left: -9999px; }
+      tr { border-bottom: 1px solid var(--line); padding: 0.6rem 0; }
+      td { padding: 0.15rem 0.4rem; border: 0; }
+    }
+  </style>
+</head>
+<body>
+  <!--
+    Launch kit notes for J H (remove or leave, this comment is not visible):
+    1. Replace href="#BUY_LINK" with the Payhip or PayPal checkout URL.
+    2. Replace href="./downloads/free-change-order-responder-skill.zip" with the hosted URL of free-change-order-responder-skill.zip.
+    3. Prices are marked with class price-launch / price-regular and data-price. Default is $29 launch, $39 regular.
+  -->
+  <header>
+    <div class="brand">Client-to-Cash</div>
+    <nav>
+      <a href="#skills">The 10 skills</a>
+      <a href="#free">Free skill</a>
+      <a href="#price">Price</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Freelance Client-to-Cash Skills</h1>
+      <p class="lede">Ten Claude skills that draft the documents around a paid freelance job. You paste the facts. Claude writes a brief, a proposal, a change order, a status email, or a handover you can actually send.</p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="#BUY_LINK">Buy the pack, <span class="price-launch" data-price="29">$29</span></a>
+        <a class="btn btn-secondary" href="./downloads/free-change-order-responder-skill.zip">Get the free change-order skill</a>
+      </div>
+      <p class="price-line">Launch price <span class="price-launch" data-price="29">$29</span>, then <span class="price-regular" data-price="39">$39</span>. One-time payment. Single-seat license. No subscription.</p>
+    </section>
+
+    <section>
+      <h2>Why these exist</h2>
+      <p>Most freelance leaks are not in the craft. They are in the emails around it: a vague proposal, a free "small add," a soft invoice follow-up, a project that never quite closes.</p>
+      <p>Each skill here is a repeatable procedure for one of those jobs. It asks for the client's words, the agreed scope, and your rates. If a number is missing, it leaves a placeholder. It will not invent a testimonial, a fee, or a yes you did not give.</p>
+    </section>
+
+    <section id="skills">
+      <h2>The 10 skills</h2>
+      <table>
+        <thead>
+          <tr><th>Skill</th><th>What it writes</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="name">discovery-call-prep</td><td>A timeboxed call brief, questions, and a do-not-promise list</td></tr>
+          <tr><td class="name">scoped-proposal-writer</td><td>A fixed-scope proposal with exclusions, price, and terms</td></tr>
+          <tr><td class="name">sow-and-scope-guard</td><td>A short statement of work and a table of change triggers</td></tr>
+          <tr><td class="name">change-order-responder</td><td>A classification, a calm reply, and a change-order estimate. This one is also free.</td></tr>
+          <tr><td class="name">client-kickoff-pack</td><td>Kickoff agenda, working agreement, and an access checklist</td></tr>
+          <tr><td class="name">weekly-status-brief</td><td>A short status email: shipped work, blockers, deadline</td></tr>
+          <tr><td class="name">late-invoice-chaser</td><td>The next overdue-invoice email, paced and factual</td></tr>
+          <tr><td class="name">case-study-extractor</td><td>A one-page case study, a short blurb, and a permission ask</td></tr>
+          <tr><td class="name">retainer-upsell-pitch</td><td>A fenced monthly retainer offer, only when the fit is real</td></tr>
+          <tr><td class="name">client-offboarding-referral</td><td>A handover checklist, a closing email, and a timed referral ask</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="free">
+      <h2>Try the free skill first</h2>
+      <p>change-order-responder is the full skill, not a teaser with the middle cut out. Paste a client message and the agreed scope. You get a classification, the time and cost impact, options, a reply, and a change-order form when the work is new.</p>
+      <div class="ctas">
+        <a class="btn btn-secondary" href="./downloads/free-change-order-responder-skill.zip">Download the free skill zip</a>
+      </div>
+      <p class="muted">Works in claude.ai, Claude Desktop, and Claude Code. Install notes are in the zip.</p>
+      <h3>A real preview, from the skill's own example</h3>
+      <p>Client, mid-project: "Can we also add a gift-card page before launch? Should be quick if we reuse the subscription layout." The agreed site is 6 named pages. Extra pages were excluded. Freelancer extra-work rate: $150/hour.</p>
+      <pre class="preview">CLASSIFICATION
+Request, in one sentence: Add a gift-card page before the 15 April launch, reusing the subscription layout.
+Class: out of scope
+Reason: The accepted 26 November proposal lists 6 named pages and excludes extra pages and shop work.
+
+IMPACT
+Time: 12 to 16 hours, if we only build a page that links out to an existing Toast gift-card URL.
+Cost: $1,800 USD fixed.
+Deadline: 15 April can hold if you approve this week and send the link and copy within 3 business days.
+
+OPTIONS
+A. Paid change order: $1,800, work starts after written approval and a $900 deposit.
+B. Park the gift-card page until after launch.
+C. Swap: drop the About page (not yet built) and build Gift Cards instead, same fee, same date.
+
+EMAIL DRAFT
+Subject: Gift-card page, scope and estimate
+
+Hi Priya,
+
+A gift-card page is new work, so it sits outside the 6 pages in the approved proposal. I can still do it before 15 April if we treat it as a written change.
+
+What I would ship: a Gift Cards page in the current design, with a button that opens your existing Toast gift-card link, copy you send, and mobile QA.
+
+Fee: $1,800 USD, with $900 to start and $900 when the page is on staging. The 15 April launch date holds if you approve this week and I have the working Toast link plus your copy within 3 business days.
+
+If that link is not live yet, I recommend we launch the 6 pages we already agreed and I quote the gift-card page as a follow-on, rather than tying the launch to Toast setup I cannot control.
+
+Reply with A (paid change), B (park it), or C (swap About). I will not start the page until I have that reply.
+
+Jordan</pre>
+    </section>
+
+    <section id="price">
+      <h2>Price and what you get</h2>
+      <div class="panel">
+        <p><strong>Launch price: <span class="price-launch" data-price="29">$29</span></strong> &nbsp; Regular price: <span class="price-regular" data-price="39">$39</span></p>
+        <p>One-time payment. You get a zip with all 10 skills, a README, an install guide for claude.ai, Claude Desktop, and Claude Code, and a single-seat license for your own freelance use.</p>
+        <p>No subscription. No account required beyond the checkout and your existing Claude account.</p>
+        <div class="ctas">
+          <a class="btn btn-primary" href="#BUY_LINK">Buy the pack, <span class="price-launch" data-price="29">$29</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>What this will not do</h2>
+      <p>It will not replace a contract or a lawyer. The drafts are commercial, not legal advice.</p>
+      <p>It will not run if you do not use Claude. You need claude.ai, Claude Desktop, or Claude Code, with skills and code execution available on your plan.</p>
+      <p>It will not invent rates, dates, testimonials, or client permission. Those stay as blanks until you fill them in.</p>
+    </section>
+
+    <section class="faq" id="faq">
+      <h2>FAQ</h2>
+      <details>
+        <summary>Which Claude products does this work with?</summary>
+        <p>claude.ai, the Claude desktop app, and Claude Code. You upload a zip of each skill folder in claude.ai or Claude Desktop, or you copy the folders into <code>~/.claude/skills</code> for Claude Code. INSTALL.md in the pack has the exact steps, checked against Anthropic's docs on 26 November 2026.</p>
+      </details>
+      <details>
+        <summary>Can I try it without paying?</summary>
+        <p>Yes. Download the free change-order-responder skill, install it, and run the sample prompt in its README. The paid pack adds the other nine skills plus the full install guide.</p>
+      </details>
+      <details>
+        <summary>Can my agency share one copy?</summary>
+        <p>No. The license is one person, for your own work. Each person who uses the files needs their own license.</p>
+      </details>
+      <details>
+        <summary>Is this legal or collections advice?</summary>
+        <p>No. The skills draft emails and working documents from the facts you provide. You are responsible for what you send, sign, and charge. The invoice skill will not invent late fees or legal threats.</p>
+      </details>
+      <details>
+        <summary>What if the zip will not install?</summary>
+        <p>Email the address on your receipt and describe the error. If we cannot get the files working, we will refund the purchase.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <p>Freelance Client-to-Cash Skills, v1.0. Single-seat license. Not affiliated with, or endorsed by, Anthropic.</p>
+    <p><a href="#BUY_LINK">Buy the pack</a> · <a href="./downloads/free-change-order-responder-skill.zip">Free change-order skill</a></p>
+  </footer>
+</body>
+</html>

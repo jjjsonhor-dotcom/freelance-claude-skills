@@ -1,2 +1,5 @@
-# freelance-claude-skills
-Public landing page for Freelance Client-to-Cash Skills. Not affiliated with Anthropic.
+# Freelance Client-to-Cash Skills
+
+Public landing page for the Freelance Client-to-Cash Skills pack, a set of Claude skills for freelance client work.
+
+This repository is not affiliated with Anthropic.

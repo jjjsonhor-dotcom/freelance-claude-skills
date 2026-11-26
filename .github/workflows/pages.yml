@@ -1,0 +1,39 @@
+name: Deploy site to GitHub Pages
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Decode zip downloads
+        run: |
+          set -euo pipefail
+          base64 -d downloads/free-change-order-responder-skill.zip.b64 > downloads/free-change-order-responder-skill.zip
+          rm -f downloads/free-change-order-responder-skill.zip.b64
+          base64 -d dl-e590e5620394784a/freelance-client-to-cash-skills-v1.0.zip.b64 > dl-e590e5620394784a/freelance-client-to-cash-skills-v1.0.zip
+          rm -f dl-e590e5620394784a/freelance-client-to-cash-skills-v1.0.zip.b64
+          unzip -t downloads/free-change-order-responder-skill.zip
+          unzip -t dl-e590e5620394784a/freelance-client-to-cash-skills-v1.0.zip
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
