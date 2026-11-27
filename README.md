@@ -16,6 +16,10 @@ The source for the free skill also lives in this repo at [`skills/change-order-r
 
 Start with the [Free Freelance Scope-Creep & Change-Order Email Scripts (12 ready-to-send templates)](guides/freelance-scope-creep-change-order-scripts.md). Copy a template, fill in the bracketed bits, and send. For a reply drafted from the client's actual message and your proposal, use the free skill below.
 
+## Free Freelance Late-Invoice Email Scripts (10 ready-to-send templates)
+
+Start with the [Free Freelance Late-Invoice Email Scripts (10 ready-to-send templates)](guides/freelance-late-invoice-email-scripts.md). Copy a template, fill in the bracketed bits, and send. For an email drafted from the actual invoice facts and what you have already sent, use the late-invoice-chaser skill in the $29 pack.
+
 ## Free skill: change-order-responder
 
 When a client says "can you also add this before launch, should be quick," this skill classifies the request against the agreed scope, estimates time and cost if the work is new, and drafts a calm reply with clear options: do it in scope, swap something out, approve a paid change, or park it.
