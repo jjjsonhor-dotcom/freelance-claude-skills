@@ -1,7 +1,7 @@
 ---
 name: change-order-responder
 description: Classify a client change request, then draft a calm reply and a change-order estimate. Use when a client asks for extra work, a small add, or a tweak that may be scope creep.
-license: Proprietary. See LICENSE.txt
+license: MIT
 metadata:
   author: Client-to-Cash
   version: "1.0"

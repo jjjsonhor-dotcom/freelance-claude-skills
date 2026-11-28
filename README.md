@@ -1,13 +1,13 @@
-# Freelance Client-to-Cash Claude Skills
+# Client-to-Cash Change-Order Responder (free skill for Claude)
 
-Free Claude skill for freelance scope creep, plus a 10-skill pack that covers the rest of a client-to-cash job.
+Free skill for freelance scope creep, plus the Client-to-Cash Freelance Skills Pack (for Claude) that covers the rest of a client-to-cash job.
 
-This repository is not affiliated with Anthropic.
+Not affiliated with or endorsed by Anthropic. Claude is a trademark of Anthropic.
 
 ## Get the files
 
-- [Free change-order-responder zip](https://payhip.com/b/gX9s4)
-- [Full 10-skill pack, $29 launch](https://payhip.com/b/fdMjC)
+- [Client-to-Cash Change-Order Responder (free skill for Claude)](https://payhip.com/b/gX9s4)
+- [Client-to-Cash Freelance Skills Pack (for Claude), $29 launch](https://payhip.com/b/fdMjC)
 - [Client-to-Cash shop](https://payhip.com/clienttocash)
 
 The source for the free skill also lives in this repo at [`skills/change-order-responder/SKILL.md`](skills/change-order-responder/SKILL.md).
@@ -20,7 +20,7 @@ Start with the [Free Freelance Scope-Creep & Change-Order Email Scripts (12 read
 
 Start with the [Free Freelance Late-Invoice Email Scripts (10 ready-to-send templates)](guides/freelance-late-invoice-email-scripts.md). Copy a template, fill in the bracketed bits, and send. For an email drafted from the actual invoice facts and what you have already sent, use the late-invoice-chaser skill in the $29 pack.
 
-## Free skill: change-order-responder
+## Free skill: Client-to-Cash Change-Order Responder (free skill for Claude)
 
 When a client says "can you also add this before launch, should be quick," this skill classifies the request against the agreed scope, estimates time and cost if the work is new, and drafts a calm reply with clear options: do it in scope, swap something out, approve a paid change, or park it.
 
@@ -28,19 +28,21 @@ It will not invent a fee, start unpaid work, or write a defensive email.
 
 ### Install in claude.ai or Claude Desktop
 
-Do not upload a zip that has a README sitting next to the skill folder. Claude expects a zip whose top level is the skill folder:
+The official free zip on Payhip is already in the format Claude expects: the skill folder at the top level, containing SKILL.md, and nothing else at the zip root. Upload that zip as-is.
 
 ```
-change-order-responder.zip
+free-change-order-responder-skill.zip
 └── change-order-responder/
     └── SKILL.md
 ```
 
-From a folder that contains `change-order-responder/`:
+If you are rebuilding a zip from this repository, zip the skill folder, not a README sitting next to it:
 
 ```bash
-zip -r change-order-responder.zip change-order-responder/
+zip -r change-order-responder.zip skills/change-order-responder
 ```
+
+The rebuilt zip must still have `change-order-responder/` (with SKILL.md inside it) at the top level. Do not add a README at the zip root.
 
 1. Open Settings, then Capabilities. Turn on Code execution and file creation. Some accounts label this Create and edit files.
 2. Open Customize, then Skills.
@@ -102,7 +104,7 @@ A short, calm reply that states the work is new, names the fee, and asks the cli
 
 ## The 10-skill pack
 
-The paid pack is delivered as a zip after purchase on Payhip. It is not stored in this public repository.
+The paid Client-to-Cash Freelance Skills Pack (for Claude) is delivered as a zip after purchase on Payhip. It is not stored in this public repository.
 
 | Skill | What it writes |
 | --- | --- |
@@ -121,7 +123,13 @@ Launch price is $29, then $39. One-time payment. Single-seat license. No subscri
 
 ## License
 
-The free skill is for a single seat, for your own personal or freelance use. Do not resell it or share the file. This is not legal advice.
+The free skill and the guides in this repository are under the MIT License. Copyright 2026, Client-to-Cash. See [LICENSE](LICENSE).
+
+The Client-to-Cash Freelance Skills Pack (for Claude) is sold separately under a single-seat license and is not in this repository.
+
+These files draft commercial emails and documents. They are not legal, tax, or financial advice.
+
+Not affiliated with or endorsed by Anthropic. Claude is a trademark of Anthropic.
 
 ## Spec
 

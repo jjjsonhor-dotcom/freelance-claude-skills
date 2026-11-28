@@ -4,7 +4,7 @@ Copy these when a client asks for "just a small add," a new page, another revisi
 
 These are templates, not legal advice. Match them to your contract, your currency, and the actual agreed scope.
 
-If you want the reply drafted from the client's message and your proposal, not from a blank template, use the free [change-order-responder Claude skill](https://payhip.com/b/gX9s4). It classifies the ask as in scope, out of scope, or unclear, estimates time and fee from your rate, and drafts a short reply with clear options. The same skill is included in the [$29 Client-to-Cash pack](https://payhip.com/b/fdMjC), which also covers discovery, proposals, statements of work, kickoff, weekly status, late invoices, retainers, offboarding, and case studies. Buying the free skill first applies a 10% discount, so the pack is $26.10.
+If you want the reply drafted from the client's message and your proposal, not from a blank template, use the free [Client-to-Cash Change-Order Responder (free skill for Claude)](https://payhip.com/b/gX9s4). It classifies the ask as in scope, out of scope, or unclear, estimates time and fee from your rate, and drafts a short reply with clear options. The same skill is included in the [$29 Client-to-Cash Freelance Skills Pack (for Claude)](https://payhip.com/b/fdMjC), which also covers discovery, proposals, statements of work, kickoff, weekly status, late invoices, retainers, offboarding, and case studies. Buying the free skill first applies a 10% discount, so the pack is $26.10.
 
 ## How to use these scripts
 
@@ -314,11 +314,11 @@ Approval: reply "approved" [and pay the deposit]
 
 Templates help when the situation is familiar. They are slower, and easier to get wrong, when the client's message is messy or your proposal has a lot of exclusions.
 
-The free [change-order-responder skill](https://payhip.com/b/gX9s4) is a Claude skill for that moment. You paste the client's request, the agreed scope, your rate, and the current deadline. It classifies the ask, estimates impact, and drafts a calm reply with options, plus a short change order. It will not invent a fee, start unpaid work, or write a defensive email.
+The free [Client-to-Cash Change-Order Responder (free skill for Claude)](https://payhip.com/b/gX9s4) is a skill for that moment. You paste the client's request, the agreed scope, your rate, and the current deadline. It classifies the ask, estimates impact, and drafts a calm reply with options, plus a short change order. It will not invent a fee, start unpaid work, or write a defensive email.
 
 Install it in Claude, or in Claude Code, from the zip on that page. When this page is added to the public repo, keep it at `guides/freelance-scope-creep-change-order-scripts.md` so this link works: the skill source is at [`skills/change-order-responder/SKILL.md`](../skills/change-order-responder/SKILL.md).
 
-The [$29 Client-to-Cash pack](https://payhip.com/b/fdMjC) is a 10-skill set for the rest of a freelance job: discovery-call prep, a scoped proposal, a statement of work, this same change-order skill, kickoff, weekly status, late-invoice chasers, retainer upsells, offboarding and referrals, and a case-study extractor. The paid zip is delivered on Payhip after purchase. It is not in this public repository. If you get the free skill first, Payhip offers the pack at $26.10.
+The [$29 Client-to-Cash Freelance Skills Pack (for Claude)](https://payhip.com/b/fdMjC) is a 10-skill set for the rest of a freelance job: discovery-call prep, a scoped proposal, a statement of work, this same change-order skill, kickoff, weekly status, late-invoice chasers, retainer upsells, offboarding and referrals, and a case-study extractor. The paid zip is delivered on Payhip after purchase. It is not in this public repository. If you get the free skill first, Payhip offers the pack at $26.10.
 
 ---
 
@@ -327,3 +327,5 @@ The [$29 Client-to-Cash pack](https://payhip.com/b/fdMjC) is a 10-skill set for 
 These scripts are examples for your own freelance practice. They are not a contract, and they are not legal, tax, or financial advice. You are responsible for what you send, sign, and charge.
 
 This page is not affiliated with Anthropic.
+
+Not affiliated with or endorsed by Anthropic. Claude is a trademark of Anthropic.
