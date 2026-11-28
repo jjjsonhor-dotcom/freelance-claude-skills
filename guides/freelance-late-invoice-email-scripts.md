@@ -4,7 +4,7 @@ Copy these when an invoice is due, overdue, or a client has gone quiet on paymen
 
 These are templates, not legal, tax, or collections advice. Match them to your contract, your currency, and what you have already sent. The aim is to get paid or to get a clear date, not to perform anger.
 
-If you want the next email drafted from the actual invoice facts, use the late-invoice-chaser skill in the [$29 Client-to-Cash pack](https://payhip.com/b/fdMjC). It picks the right step from how many days overdue you are, drafts one email, and tells you what to send next if there is still no reply. The same pack includes discovery, proposals, statements of work, kickoff, weekly status, retainers, offboarding, and the free [change-order-responder](https://payhip.com/b/gX9s4). Buying the free skill first applies a 10% discount, so the pack is $26.10.
+If you want the next email drafted from the actual invoice facts, use the late-invoice-chaser skill in the [$29 Client-to-Cash Freelance Skills Pack (for Claude)](https://payhip.com/b/fdMjC). It picks the right step from how many days overdue you are, drafts one email, and tells you what to send next if there is still no reply. The same pack includes discovery, proposals, statements of work, kickoff, weekly status, retainers, offboarding, and the free [change-order-responder](https://payhip.com/b/gX9s4). Buying the free skill first applies a 10% discount, so the pack is $26.10.
 
 ## How to use these scripts
 
@@ -219,7 +219,7 @@ Firm note, around 15 to 21 days, only if the terms allow a pause:
 
 Templates get the facts on the page. They are easier to get wrong when the history is messy, a promise was missed, or part of the invoice is in dispute.
 
-The late-invoice-chaser skill in the [$29 Client-to-Cash pack](https://payhip.com/b/fdMjC) is built for that moment. You give it the invoice, the due date, what you already sent, and any terms you may actually use. It chooses the step, drafts one email, and names the next send if there is still no reply. It will not invent late fees, threaten legal action, or apologise for invoicing.
+The late-invoice-chaser skill in the [$29 Client-to-Cash Freelance Skills Pack (for Claude)](https://payhip.com/b/fdMjC) is built for that moment. You give it the invoice, the due date, what you already sent, and any terms you may actually use. It chooses the step, drafts one email, and names the next send if there is still no reply. It will not invent late fees, threaten legal action, or apologise for invoicing.
 
 The pack is delivered as a zip on Payhip after purchase. It is not in this public repository. If you get the free [change-order-responder skill](https://payhip.com/b/gX9s4) first, Payhip offers the pack at $26.10. The free skill source also lives in this repo at [`skills/change-order-responder/SKILL.md`](../skills/change-order-responder/SKILL.md).
 
@@ -230,3 +230,5 @@ The pack is delivered as a zip on Payhip after purchase. It is not in this publi
 These scripts are examples for your own freelance practice. They are not a contract, and they are not legal, tax, or collections advice. You are responsible for what you send, and for any pause, late fee, or withheld delivery you announce. Only use those if they are already in your agreed terms.
 
 This page is not affiliated with Anthropic.
+
+Not affiliated with or endorsed by Anthropic. Claude is a trademark of Anthropic.
